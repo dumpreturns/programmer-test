@@ -1,4 +1,4 @@
-const oldArray = [
+let oldArray = [
     { id: 1, nome: 'Liz', idade: 2 },
     { id: 2, nome: 'Thais', idade: 32 },
     { id: 3, nome: 'Jonathan', idade: 30 },
@@ -7,10 +7,5 @@ const oldArray = [
 ]
 
 
-//numeros.splice(numeros.indexOf(5), 1)
 
-const newArray = oldArray.forEach((id) => {
-    oldArray.pop(id)
-})
 
-console.log(newArray)
