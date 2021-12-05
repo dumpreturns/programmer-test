@@ -11,6 +11,6 @@ function checkPalindromo(palavra) {
 }
 
 
-alert(palavrasPalindromas)
+alert("As palavras palindromas são:" + palavrasPalindromas)
 
 console.log(palavrasPalindromas)

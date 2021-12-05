@@ -10,4 +10,7 @@ numeros.splice(numeros.indexOf(5), 1)
 
 numeros.splice(numeros.indexOf(8), 1, 20, 21, 22)
 
+
+
+alert("Numeros contidos no array: " + numeros)
 console.log(numeros)
